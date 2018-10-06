@@ -1,0 +1,164 @@
+baseurl = "https://aniruddhadave.com"
+title = "Aniruddha Dave"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Aniruddha Dave"
+    description = "Aniruddha Dave's personal website"
+    keywords = "blog,developer,personal"
+    info = "Full Stack DevOps and Magician"
+    avatarurl = "images/bit1.jpeg"
+    footercontent = ""
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+
+    rtl = false
+
+    # Custom CSS
+    custom_css = []
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/aniruddhadave/"
+# [[params.social]]
+#     name = "Gitlab"
+#     icon = "fab fa-gitlab"
+#     weight = 2
+#     url = "https://gitlab.com/johndoe/"
+# [[params.social]]
+#     name = "Twitter"
+#     icon = "fab fa-twitter"
+#     weight = 3
+#     url = "https://twitter.com/johndoe/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://linkedin.com/in/aniruddha-dave-58575096/"
+# [[params.social]]
+#     name = "Medium"
+#     icon = "fab fa-medium"
+#     weight = 5
+#     url = "https://medium.com/@johndoe"
+[[params.social]]
+    name = "Mail"
+    icon = "fas fa-envelope"
+    weight = 5
+    url = "mailto:aniruddhadave@gmail.com"
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Learnings"
+    weight = 3
+    url = "/learnings/"
+[[menu.main]]
+    name = "Projects"
+    weight = 4
+    url = "/projects/"
+[[menu.main]]
+    name = "CV"
+    weight = 5
+    url = "/cv/cv.pdf"
+[[menu.main]]
+    name = "Contact me"
+    weight = 6
+    url = "/contact/"
+
+[languages]
+    [languages.en]
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Aniruddha Dave"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+        author = "Aniruddha Dave"
+        info = "Data Scientist and AI Enthusiast"
+        description = "Aniruddha Dave's personal website"
+        keywords = "blog,developer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1.0
+        url = "/about/"
+
+        [[languages.en.menu.main]]
+        name = "Blog"
+        weight = 2.0
+        url = "/posts/"
+
+        [[languages.en.menu.main]]
+        name = "Learnings"
+        weight = 3
+        url = "/learnings/"
+
+        [[languages.en.menu.main]]
+        name = "Projects"
+        weight = 4
+        url = "/projects/"
+
+        [[languages.en.menu.main]]
+        name = "CV"
+        weight = 5
+        url = "/cv/cv.pdf"
+
+        [[languages.en.menu.main]]
+        name = "Contact me"
+        weight = 6
+        url = "/contact/"
+
+
+    # [languages.pl]
+    #     languagename = "Polski"
+    #     title = "John Doe po polsku"
+    #
+    #     [languages.pl.params]
+    #         author = "John Doe"
+    #         description = "Strona domowa John'a Doe"
+    #         keywords = "blog,developer,strona domowa"
+    #         info = "Full Stack DevOps i Magik"
+    #
+    #     [languages.pl.menu]
+    #
+    #         [[languages.pl.menu.main]]
+    #         name = "O mnie"
+    #         weight = 1.0
+    #         url = "/pl/about/"
+    #
+    #         [[languages.pl.menu.main]]
+    #         name = "Blog"
+    #         weight = 2.0
+    #         url = "/pl/posts/"
+    #
+    #         [[languages.pl.menu.main]]
+    #         name = "projektowanie"
+    #         weight = 3
+    #         url = "/projektowanie/"
+    #         [[languages.pl.menu.main]]
+    #         name = "kontakt"
+    #         weight = 5
+    #         url = "/kontakt/"
